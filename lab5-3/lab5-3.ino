@@ -14,10 +14,10 @@ void loop() {
   // put your main code here, to run repeatedly:
   int kb_1 = digitalRead(17);
   if(kb_1 == 1){
-    Keyborad.press(KEY_BACKSPACE);
+    Keyborad.press('a');
     delay(100);
     Keyborad.releaseAll();
-    delay(1000);
+    delay(500);
   }
 
 }
