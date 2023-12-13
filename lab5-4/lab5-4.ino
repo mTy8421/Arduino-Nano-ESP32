@@ -14,7 +14,8 @@ void loop() {
   // put your main code here, to run repeatedly:
   int kb_1 = digitalRead(17);
   if(kb_1 == 1){
-    Keyborad.press('a');
+    Keyborad.press(KEY_LEFT_CTRL);
+    Keyborad.press('v');
     delay(100);
     Keyborad.releaseAll();
     delay(500);
