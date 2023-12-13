@@ -14,11 +14,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   int kb_1 = digitalRead(17);
   if(kb_1 == 1){
-    Keyborad.press(KEY_LEFT_CTRL);
-    Keyborad.press(KEY_LEFT_ALT);
-    Keyborad.press(KEY_DELETE);
-    delay(100);
-    Keyborad.releaseAll();
+    Keyborad.press("University of Phayao");
     delay(500);
   }
 
