@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  Keyborad.press(KEY_BACKSPAC);
+  Keyborad.press(KEY_BACKSPACE);
   delay(100);
   Keyborad.releaseAll();
   delay(1000);
