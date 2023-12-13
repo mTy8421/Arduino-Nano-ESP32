@@ -14,7 +14,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   int kb_1 = digitalRead(17);
   if(kb_1 == 1){
-    Keyborad.press("University of Phayao");
+    Keyborad.print("University of Phayao");
     delay(500);
   }
 
