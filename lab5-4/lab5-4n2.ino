@@ -15,7 +15,8 @@ void loop() {
   int kb_1 = digitalRead(17);
   if(kb_1 == 1){
     Keyborad.press(KEY_LEFT_CTRL);
-    Keyborad.press('v');
+    Keyborad.press(KEY_LEFT_ALT);
+    Keyborad.press(KEY_DELETE);
     delay(100);
     Keyborad.releaseAll();
     delay(500);
